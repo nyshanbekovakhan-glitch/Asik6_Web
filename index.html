@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asik6</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section id="profile">
+    <h1 id="title">Welcome to My Portfolio!</h1>
+    <h1 id="name">Khanzada Nyshanbek Adilqyzy</h1>
+    <h2 class="headline"> Software Engineering Student</h2>
+    <p class="intro">
+        Hello everyone! I am a second-year student at Astana IT University.
+        I am interested in programming and web development.
+    </p>
+    <button id="changeText">Change Greeting</button>
+    <button id="lightTheme">Light Theme</button>
+    <button id="darkTheme">Dark Theme</button>
+</section>
+<section id="about">
+    <h2>Beyond the Screen</h2>
+    <p>
+        I'm Khanzada, a Software Engineering student
+        who believes that life is about more than just code.
+        I enjoy discovering new things, challenging myself,
+        and turning ideas into reality.
+    </p>
+    <div id="info">
+        <h3> My Current Chapter</h3>
+        <p id="status">
+            Currently learning jQuery, exploring web development,
+            and building my future one line of code at a time!
+        </p>
+        <h3> A Little More About Me</h3>
+        <ul>
+            <li> I love painting because it lets me express creativity.</li>
+            <li> I dream of studying abroad and discovering new cultures.</li>
+            <li> I enjoy learning about history and human psychology.</li>
+            <li> I want to create something meaningful through technology.</li>
+            <li> Horse riding is one of the experiences I would love to try again.</li>
+        </ul>
+        <h3> My Personal Philosophy</h3>
+        <p>
+            I believe success is important, but happiness,
+            freedom, and meaningful experiences matter even more.
+        </p>
+    </div>
+    <div class="about-buttons">
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+        <button id="toggle">Toggle</button>
+    </div>
+</section>
+<section id="gallery">
+    <h2>My Creative World </h2>
+    <p>A little collection of things that inspire me.</p>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="images/cake1.jpg" alt="My first cake">
+            <h3>My First Cake</h3>
+            <p>A sweet creation made with creativity and love.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/cake2.jpg" alt="My second cake">
+            <h3>Another Sweet Creation</h3>
+            <p>Every cake is a new opportunity to learn.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/code.jpg" alt="My coding project">
+            <h3>My Coding Journey</h3>
+            <p>Turning ideas into reality, one line at a time.</p>
+        </div>
+    </div>
+    <div class="gallery-buttons">
+        <button id="fadeIn">Fade In</button>
+        <button id="fadeOut">Fade Out</button>
+        <button id="fadeToggle">Fade Toggle</button>
+    </div>
+</section>
+<section id="interests">
+    <h2>Things That Inspire Me</h2>
+    <p>Click on each topic to discover more about me.</p>
+
+    <div class="slide-item">
+        <h3 class="slide-heading"> My Favorite Movie Genre</h3>
+        <div class="slide-panel">
+            <p>
+                I enjoy movies that explore human psychology,
+                personal growth, and real-life stories.
+                They make me think differently about the world.
+            </p>
+        </div>
+    </div>
+
+    <div class="slide-item">
+        <h3 class="slide-heading"> My Favorite Subject</h3>
+        <div class="slide-panel">
+            <p>
+                I enjoy Software Engineering because I can
+                turn creative ideas into real applications.
+                Every new project teaches me something.
+            </p>
+        </div>
+    </div>
+
+    <div class="slide-item">
+        <h3 class="slide-heading">My Dream Destination</h3>
+        <div class="slide-panel">
+            <p>
+                Switzerland is one of my dream destinations.
+                I would love to study abroad, explore beautiful
+                places, and meet people from different cultures.
+            </p>
+        </div>
+    </div>
+</section>
+<section id="skills">
+    <h2>My Tech Toolbox </h2>
+    <p>Technologies I'm learning and working with.</p>
+    <ul id="skill-list">
+        <li>Java</li>
+        <li>Python</li>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>SQL Database</li>
+    </ul>
+    <input type="text" id="skill-input" placeholder="Enter a new technical skill..." >
+    <div class="skill-buttons">
+        <button id="add-skill">Add Skill</button>
+        <button id="prepend-skill">Prepend Skill</button>
+        <button id="remove-skill">Remove Skill</button>
+    </div>
+</section>
+<section id="social">
+    <h2>Connect With Me</h2>
+    <a id="social-link" href="https://github.com/nyshanbekovakhan-glitch" target="_blank">
+        Visit My GitHub
+    </a>
+    <button id="change-link">Change Link to LinkedIn</button>
+</section>
+<section id="contact">
+    <h2>Contact Form</h2>
+    <form>
+        <input type="text" id="un" placeholder="Enter your name">
+        <input type="email" id="ue" placeholder="Enter your email">
+    </form>
+    <div>
+        <h3>Live Preview</h3>
+        <p id="pn">Name: </p>
+        <p id="pe">Email: </p>
+    </div>
+</section>
+<div id="skill-animation">
+    <h3>My Skill Levels</h3>
+    <p>Java</p>
+    <div class="bar">
+        <div id="java"></div>
+    </div>
+    <p>Python</p>
+    <div class="bar">
+        <div id="python"></div>
+    </div>
+    <p>HTML & CSS</p>
+    <div class="bar">
+        <div id="html"></div>
+    </div>
+    <p>JavaScript</p>
+    <div class="bar">
+        <div id="javascript"></div>
+    </div>
+    <button id="animate-skills">Animate My Skills</button>
+</div>
+</body>
+</html>
