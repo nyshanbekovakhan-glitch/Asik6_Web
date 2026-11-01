@@ -7,16 +7,16 @@
 
 In this task, I connected the jQuery library to my HTML file using a CDN link. I used the `$(document).ready()` function to make sure that jQuery code runs after the page is loaded. I also printed "jQuery is ready!" in the browser console to check that jQuery works correctly.
 
-![Task 0](screenshots/0.png)
+![Task 0](0.png)
 
 
 ## Task 1. Selectors & CSS
 
 In this task, I created my personal portfolio profile with my name, headline, and a short introduction. I used tag selectors, ID selectors, and class selectors to select HTML elements. I added a Change Greeting button to update the title using `.text()`. I also used `.css()` to change element styles and created Light Theme and Dark Theme buttons to switch the website's appearance.
 
-![Task 1](screenshots/1.png)
+![Task 1](1.png)
 
-![Task 1.1](screenshots/1.1.png)
+![Task 1.1](1.1.png)
 
 ## Task 2. Visibility Methods
 
@@ -24,9 +24,9 @@ In this task, I created an About Me section with my biography, current status, i
 
 **Screenshots:**
 
-![Task 2](screenshots/2.png)
+![Task 2](2.png)
 
-![Task 2.1](screenshots/2.1.png)
+![Task 2.1](2.1.png)
 
 ## Task 3. Fade Methods
 
@@ -34,9 +34,9 @@ In this task, I created a gallery with three images related to my creativity and
 
 **Screenshots:**
 
-![Task 3](screenshots/3.png)
+![Task 3](3.png)
 
-![Task 3.1](screenshots/3.1.png)
+![Task 3.1](3.1.png)
 
 ## Task 4. Slide Methods
 
@@ -44,9 +44,9 @@ In this task, I created three clickable headings about my favorite movie genre, 
 
 **Screenshots:**
 
-![Task 4](screenshots/4.png)
+![Task 4](4.png)
 
-![Task 4.1](screenshots/4.1.png)
+![Task 4.1](4.1.png)
 
 ## Task 5. Add & Remove Elements
 
@@ -54,9 +54,9 @@ In this task, I created a technical skills list containing Java, Python, HTML & 
 
 **Screenshots:**
 
-![Task 5](screenshots/5.png)
+![Task 5](5.png)
 
-![Task 5.1](screenshots/5.1.png)
+![Task 5.1](5.1.png)
 
 ## Task 6. Modifying Attributes
 
@@ -64,9 +64,9 @@ In this task, I added a link to my GitHub profile. I created a button that chang
 
 **Screenshots:**
 
-![Task 6](screenshots/6.png)
+![Task 6](6.png)
 
-![Task 6.1](screenshots/6.1.png)
+![Task 6.1](6.1.png)
 
 ## Task 7. Form Interaction
 
@@ -74,9 +74,9 @@ In this task, I created a contact form with Name and Email input fields. When us
 
 **Screenshots:**
 
-![Task 7](screenshots/7.png)
+![Task 7](7.png)
 
-![Task 7.1](screenshots/7.1.png)
+![Task 7.1](7.1.png)
 
 ## Task 8. Basic Animation
 
@@ -84,9 +84,9 @@ In this task, I created skill bars for Java, Python, HTML & CSS, and JavaScript.
 
 **Screenshots:**
 
-![Task 8](screenshots/8.png)
+![Task 8](8.png)
 
-![Task 8.1](screenshots/8.1.png)
+![Task 8.1](8.1.png)
 
 ## Conclusion
 
