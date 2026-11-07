@@ -37,9 +37,8 @@ $(document).ready(function() {
     $(".slide-heading").dblclick(function() {
         $(this).next(".slide-panel").slideUp(500);
     });
-    $(".slide-heading").on("contextmenu",function(event) {
-        event.preventDefault();
-        $(this).next(".slide-panel").slideToggle(500);
+    $(".slide-heading").mouseleave(function() {
+        $(this).next(".slide-panel").slideToggle();
     });
     $("#add-skill").click(function() {
         let skill=$("#skill-input").val().trim();
@@ -62,24 +61,29 @@ $(document).ready(function() {
     $("#social-link").attr("href", "https://www.linkedin.com/in/khanzada-nyshanbek-9862b6411/");
     $("#social-link").text("Visit My LinkedIn");
     });
-    $("#un").on("input", function() {
+    $("#un").keyup(function() {
         let name = $(this).val();
         $("#pn").text("Name: " + name);
     });
-    $("#ue").on("input", function() {
+    $("#ue").keyup(function() {
         let email = $(this).val();
         $("#pe").text("Email: " + email);
     });
     let isAnimated = false;
     $("#animate-skills").click(function() {
     if (isAnimated === false) {
-        $("#java").animate({ width: "85%" }, 1000);
-        $("#python").animate({ width: "70%" }, 1000);
-        $("#html").animate({ width: "95%" }, 1000);
-        $("#javascript").animate({ width: "60%" }, 1000);
+        $("#java").animate({ 
+            width: "85%" }, 1000);
+        $("#python").animate({ 
+            width: "70%" }, 1000);
+        $("#html").animate({ 
+            width: "95%" }, 1000);
+        $("#javascript").animate({ 
+            width: "60%" }, 1000);
         isAnimated = true;
     }else{
-        $(".bar div").stop().animate({ width: "0%" }, 1000);
+        $(".bar div").stop().animate({
+            width: "0%" }, 1000);
         isAnimated = false;
     }
 });
